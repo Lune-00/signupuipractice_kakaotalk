@@ -4,9 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/lune9/AndroidStudioProjects/ui_kakaotalk/app/src/main/res/drawable-anydpi/ic_action_close.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/lune9/AndroidStudioProjects/ui_kakaotalk/app/src/main/res/drawable-anydpi/ic_action_close_2.xml" value="0.14583333333333334" />
         <entry key="..\:/Users/lune9/AndroidStudioProjects/ui_kakaotalk/app/src/main/res/drawable-anydpi/ic_action_menu.xml" value="0.26205128205128203" />
         <entry key="..\:/Users/lune9/AndroidStudioProjects/ui_kakaotalk/app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.26205128205128203" />
-        <entry key="..\:/Users/lune9/AndroidStudioProjects/ui_kakaotalk/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/lune9/AndroidStudioProjects/ui_kakaotalk/app/src/main/res/layout/activity_main.xml" value="0.264" />
       </map>
     </option>
   </component>

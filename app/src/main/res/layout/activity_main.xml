@@ -13,53 +13,120 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_action_menu" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="10dp"
+            android:background="#c2b327"/>
+
+        <Button
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/ic_action_name"/>
+
+        <Button
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:background="@drawable/ic_action_close_2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center">
 
         <TextView
             android:layout_width="10dp"
-            android:layout_height="50dp"/>
+            android:layout_height="40dp"/>
 
         <ImageView
-            android:layout_width="240dp"
-            android:layout_height="140dp"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
             android:src="@drawable/img1"/>
 
     </LinearLayout>
 
     <EditText
-        android:layout_width="270dp"
-        android:layout_height="45dp"
+        android:layout_width="268dp"
+        android:layout_height="43dp"
         android:background="#ffffff"
         android:layout_marginTop="50dp"
-        android:textSize="17dp"
+        android:textSize="15dp"
         android:textColorHint="#D6D5CC"
-        android:hint="  카카오계정 (이메일)"/>
+        android:hint="  카카오계정 (이메일)" />
 
     <EditText
-        android:layout_width="270dp"
-        android:layout_height="45dp"
+        android:layout_width="268dp"
+        android:layout_height="43dp"
         android:background="#ffffff"
-        android:textSize="17dp"
+        android:textSize="15dp"
         android:textColorHint="#D6D5CC"
         android:hint="  비밀번호"/>
 
     <Button
         android:layout_width="270dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="6dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="2dp"
         android:backgroundTint="#715c5e"
         android:text="로그인"
         android:textColor="#837274"/>
 
     <CheckBox
         android:layout_width="wrap_content"
-        android:layout_height="25dp"
+        android:layout_height="20dp"
         android:buttonTint="#a49700"
         android:text="잠금모드로 자동로그인"
         android:textColor="#a49700"
-        android:textSize="13dp"
-        android:layout_marginRight="64dp"/>
+        android:textSize="14dp"
+        android:layout_marginRight="57dp" />
 
+
+    <View
+        android:layout_width="270dp"
+        android:layout_height="1dp"
+        android:background="#DACA2C"
+        android:layout_marginTop="22dp"/>
+
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:textColor="#a49700"
+        android:layout_marginTop="17dp"
+        android:text="모바일에서 카카오계정을 확인할 수 있습니다."/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="91dp"
+    android:text="카카오계정안내"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:text="비밀번호를 잊어버리셨나요?"
+        android:layout_marginBottom="43dp"
+        android:backgroundTint="#FAE100"
+        android:textColor="#a49700"/>
 
 </LinearLayout>
