@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:padding="10dp"
     android:orientation="vertical"
+    android:gravity="center|top"
     android:background="#FAE100"
     tools:context=".MainActivity">
 
@@ -17,7 +18,7 @@
 
         <TextView
             android:layout_width="10dp"
-            android:layout_height="30dp"/>
+            android:layout_height="50dp"/>
 
         <ImageView
             android:layout_width="240dp"
@@ -25,5 +26,40 @@
             android:src="@drawable/img1"/>
 
     </LinearLayout>
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:background="#ffffff"
+        android:layout_marginTop="50dp"
+        android:textSize="17dp"
+        android:textColorHint="#D6D5CC"
+        android:hint="  카카오계정 (이메일)"/>
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:background="#ffffff"
+        android:textSize="17dp"
+        android:textColorHint="#D6D5CC"
+        android:hint="  비밀번호"/>
+
+    <Button
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="#715c5e"
+        android:text="로그인"
+        android:textColor="#837274"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:buttonTint="#a49700"
+        android:text="잠금모드로 자동로그인"
+        android:textColor="#a49700"
+        android:textSize="13dp"
+        android:layout_marginRight="64dp"/>
+
 
 </LinearLayout>
