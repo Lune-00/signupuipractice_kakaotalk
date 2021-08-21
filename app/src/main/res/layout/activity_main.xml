@@ -125,7 +125,7 @@
         android:layout_width="220dp"
         android:layout_height="40dp"
         android:text="비밀번호를 잊어버리셨나요?"
-        android:layout_marginBottom="43dp"
+        android:layout_marginBottom="40dp"
         android:backgroundTint="#FAE100"
         android:textColor="#a49700"/>
 
